@@ -1,0 +1,30 @@
+//Bài 1: Nhập vào a, in ra lẻ, chẵn
+//Bài 2: Nhập và điểm, xếp học lực: <5: Yếu, 5-8: Khá; >8: Giỏi        
+//Bài 3: In các số từ 1-> 10                
+//Bài 4: Nhập vào a, in các số chẵn từ 1 đến a                
+//Bài 5: Nhập vào a, b, tính tổng từ a đến b
+
+
+
+
+//        System.out.println("Hello world");
+//        int a = 3;
+//        double b = 3.5;
+//        String str = "Str";
+//
+//        Scanner scanner = new Scanner(System.in);
+//        str = scanner.nextLine();
+//        a = scanner.nextInt();
+//        b = scanner.nextDouble();
+//        Khai báo 2 số nguyên a và b, nhập vào a, b,  in ra tổng!
+        int a;
+        int b;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Nhập vào a: ");
+        a = scanner.nextInt();
+        System.out.println("Nhập vào b: ");
+        b = scanner.nextInt();
+        System.out.println("Tổng của chúng là:" + (a + b));
+//        for (int i=0; i<=10; i++) {
+//            System.out.println(i);
+//        }
